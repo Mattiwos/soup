@@ -32,7 +32,7 @@ def makeRandomPageRequest():
 
 
 def randomQ(list_of_quotes):
-   rint = random.randint(1,1)
+   rint = random.randint(1,28)
    return list_of_quotes[rint].get_text()
 
 
